@@ -7,5 +7,9 @@ print("het tweede getal wat je hebt opgegeven is",getal2)
 if getal1 > getal2:
     print("het eerste getal",getal1,"is het grootste getal")
 
-if getal2 > getal1:
-    print("het tweede getal",getal2,"is grootste getal")
+elif getal2 > getal1:
+    print(getal1,"is kleiner dan het tweede getal",getal2)
+
+else:
+    print("het eerste en tweede getal zijn gelijk")
+
